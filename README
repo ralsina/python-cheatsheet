@@ -1,0 +1,20 @@
+Based on the python cheatsheet from
+http://www.addedbytes.com/cheat-sheets/python-cheat-sheet/
+
+The text for each language LA is in cheatsheet-LA.rst2pdf
+The style for each language is in cheatsheet-LA.style
+
+To build the stylesheet for language LA run:
+    
+    make LA
+
+The output should be in cheatsheet-LA.pdf
+
+Requirements for best output:
+
+* rst2pdf from SVN (rst2pdf.googlecode.com)
+* wordaxe from SVN for kerning support (deco-cow.sf.net)
+* reportlab 2.3 (Version 2.1 is too old!)
+* True Type Droid fonts (www.droidfonts.org)
+* PIL (python imaging library) for the backgrounds
+

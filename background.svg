@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="475.21866"
+   height="114.45032"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="background.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/ralsina/folleto/background.png"
+   inkscape:export-xdpi="299.96802"
+   inkscape:export-ydpi="299.96802">
+  <metadata
+     id="metadata25">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs23">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 57.225159 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="475.21866 : 57.225159 : 1"
+       inkscape:persp3d-origin="237.60933 : 38.150106 : 1"
+       id="perspective27" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="836"
+     inkscape:window-width="1438"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.84397881"
+     inkscape:cx="337.41736"
+     inkscape:cy="127.69712"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g2398"
+     transform="matrix(0,6.4687966,-6.4687966,0,487.4601,-1564.5243)">
+    <path
+       id="path18"
+       d="M 305.62648,38.22592 C 305.62648,10.194188 293.47023,11.94467 293.47023,11.94467 L 280.87648,11.97592 L 280.87648,38.72592 L 277.09523,38.72592 L 277.09523,1.35092 C 277.09523,1.35092 279.12951,-16.58658 250.84523,-16.58658 C 222.56096,-16.58658 223.56398,-0.93033 223.56398,-0.93033 L 223.56398,8.41342 L 236.68898,8.41342 C 236.68898,8.41342 252.34523,7.909768 252.34523,23.81967 C 252.34523,39.72957 252.34523,50.35092 252.34523,50.35092 C 252.34523,50.35092 252.10427,65.25717 266.75148,65.25717 C 281.39869,65.25717 290.97023,65.25717 290.97023,65.25717 C 290.97023,65.25717 305.62648,67.52035 305.62648,38.22592 z M 297.15773,23.47592 C 297.15773,26.137349 295.00666,28.28842 292.34523,28.28842 C 289.6838,28.288422 287.53273,26.137349 287.53273,23.47592 C 287.53273,20.814491 289.6838,18.66342 292.34523,18.66342 C 295.00666,18.663418 297.15773,20.814491 297.15773,23.47592 z"
+       style="fill:#366994" />
+    <path
+       id="path20"
+       d="M 195.78038,39.02202 C 195.78038,67.05376 207.93663,65.30327 207.93663,65.30327 L 220.53038,65.27207 L 220.53038,38.52207 L 224.31163,38.52207 L 224.31163,75.89707 C 224.31163,75.89707 222.27736,93.83457 250.56164,93.83457 C 278.84591,93.83458 277.84289,78.17832 277.84289,78.17832 L 277.84289,68.83457 L 264.71789,68.83457 C 264.71789,68.83457 249.06164,69.33823 249.06164,53.42832 C 249.06164,37.518418 249.06164,26.897068 249.06164,26.897068 C 249.06164,26.897068 249.3026,11.990818 234.65538,11.990818 C 220.00818,11.990818 210.43663,11.990818 210.43663,11.990818 C 210.43663,11.990818 195.78038,9.727638 195.78038,39.02207 L 195.78038,39.02202 z M 204.24913,53.77202 C 204.24913,51.11059 206.4002,48.95952 209.06163,48.95952 C 211.72306,48.95952 213.87413,51.11059 213.87413,53.77202 C 213.87413,56.43345 211.72306,58.58452 209.06163,58.58452 C 206.4002,58.58453 204.24913,56.43345 204.24913,53.77202 z"
+       style="fill:#ffc331" />
+  </g>
+  <rect
+     style="opacity:0.57872338;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.98970985;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.05676856"
+     id="rect3181"
+     width="1049.3726"
+     height="741.1048"
+     x="-287.07697"
+     y="-313.32724" />
+</svg>
