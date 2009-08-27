@@ -2,27 +2,27 @@
 
 .. role:: small
 
-Variables de *sys*
-------------------
+sys Variables
+-------------
 
 ==================== ================================
-argv                 Argumentos línea de comandos
-builtin_module_names Módulos en C incluídos
-byteorder            Orden de bytes nativo
-check_interval       Frecuencia de chequeo de señales
-exec_prefix          Directorio raíz
-executable           Nombre del ejecutable
-exitfunc             Nombre de función de salida
-modules              Módulos cargados
-path                 Camino de búsqueda
-platform             Plataforma actual
-stdin,stdout,stderr  Objectos para entrada/salida
-version_info         Información de versión de python
-winver               Versión de windows
+argv                 Command line args
+builtin_module_names Linked C modules
+byteorder            Native byte order
+check_interval       Signal check frequency
+exec_prefix          Root directory
+executable           Name of executable
+exitfunc             Exit function name
+modules              Loaded modules
+path                 Search path
+platform             Current platform
+stdin,stdout,stderr  File objects for I/O
+version_info         Python version info
+winver               Version number
 ==================== ================================
 
-sys.argv para ``python foo.py bar -c qux --h``
--------------------------------------------------
+sys.argv for ``python foo.py bar -c qux --h``
+---------------------------------------------
 
 ==================== ================================
 sys.argv[0]          foo.py
@@ -32,35 +32,35 @@ sys.argv[3]          qux
 sys.argv[4]          --h
 ==================== ================================
 
-Variables de *os*
------------------
+os Variables
+------------
 
 ==================== ================================
-altsep               Separador alternativo
-curdir               Directorio actual (string)
-defpath              Path por default
-devnull              Dispositivo nulo (ej: /dev/null)
-extsep               Separador de extensión
-linesep              Separador de línea
-name                 Nombre del Sist. Operativo
-pardir               Nombre del directorio padre
-pathsep              Separador de path
-sep                  Separador de path
+altsep               Alternative separator
+curdir               Current dir string        
+defpath              Default search path
+devnull              Path of null device             
+extsep               Extension separator   
+linesep              Line separator      
+name                 Name of OS                
+pardir               Parent dir string          
+pathsep              Path separator   
+sep                  Path separator   
 ==================== ================================
 
 .. class:: extranote
 
 +----------------+--------------------------------------------------+
-|    :nota:`NOTA`| El sist. operativo es ``posix``, ``nt``,         |
-|                | ``mac``, ``os2``, ``ce``, ``java`` o ``riscos``  |
+|    :nota:`NOTE`| Registered OS names:  ``posix``, ``nt``,         |
+|                | ``mac``, ``os2``, ``ce``, ``java`` or ``riscos`` |
 +----------------+--------------------------------------------------+
 
 .. raw:: pdf
 
    Spacer 0 2pt
 
-Métodos Especiales de Clases
-----------------------------
+Class Special Methods
+---------------------
 
 =========================== ================================
 __new__(cls)                __lt__(self,other)
@@ -75,36 +75,36 @@ __getattr__(self,name)      __setattr__(self,name,attr)
 __getattribute__(self,name) __delattr__(self,name)
 =========================== ================================
 
-Métodos de String
------------------
+String Methods
+--------------
 
 ===================== ================================
 capitalize() \*       lstrip()
 center(width)         partition(sep)
-count(sub,inicio,fin) replace(viejo,nuevo)
-decode()              rfind(sub,inicio,fin)
-encode()              rindex(sub,inicio,fin)
-endswith(sub)         rjust(ancho)
+count(sub,start,end)  replace(old,new)
+decode()              rfind(sub,start,end)
+encode()              rindex(sub,start,end) 
+endswith(sub)         rjust(width)
 expandtabs()          rpartition(sep)
-find(sub,inicio,fin)  rsplit(sep)
-index(sub,inicio,fin) rstrip()
+find(sub,start,end)   rsplit(sep)
+index(sub,start,end)  rstrip()
 isalnum() \*          split(sep)
 isalpha() \*          splitlines()
 isdigit() \*          startswith(sub)
 islower() \*          strip()
 isspace() \*          swapcase() \*
 istitle() \*          title() \*
-isupper() \*          translate(tabla)
+isupper() \*          translate(table)
 join()                upper() \*
-ljust(ancho)          zfill(ancho)
+ljust(width)          zfill(width)
 lower() \*
 ===================== ================================
 
 .. class:: extranote
 
 +----------------+------------------------------------------+
-|    :nota:`NOTA`| Los métodos con * dependen del           |
-|                | locale para strings de 8 bits            |
+|    :nota:`NOTE`| Methods marked * are locale              |
+|                | dependant for 8-bit strings              |
 |                |                                          |
 +----------------+------------------------------------------+
 
@@ -112,19 +112,19 @@ lower() \*
 
    Spacer 0 2pt
 
-Métodos de Lista
-----------------
+List Methods    
+------------
 
 ===================== ================================
-append(ítem)          pop(posición)
-count(ítem)           remove(ítem)
+append(item)          pop(position)
+count(item)           remove(item)
 extend(list)          reverse()
-index(ítem)           sort()
-insert(posición,ítem)
+index(item)           sort()
+insert(position,item)
 ===================== ================================
 
-Índices y Slices (de ``a=[0,1,2,3,4,5]``)
------------------------------------------
+Indexes and Slices (of ``a=[0,1,2,3,4,5]``)
+-------------------------------------------
 
 ===================== ================================
 len(a)                6
@@ -139,8 +139,8 @@ a[1:3]                [1,2]
 a[1:-1]               [1,2,3,4]
 ===================== ================================
 
-Métodos de Datetime
--------------------
+Datetime Methods
+----------------
 
 ========================= ================================
 today()                   fromordinal(ordinal)
@@ -149,8 +149,8 @@ utcnow()                  strptime(date, format)
 fromtimestamp(timestamp)  utcfromtimestamp(timestamp)
 ========================= ================================
 
-Métodos de Time
----------------
+Time Methods
+------------
 
 ========================= ================================
 replace()                 utcoffset()
@@ -159,78 +159,78 @@ __str__()                 tzname()
 strftime(formato)
 ========================= ================================
 
-Formato de Fecha (``strfime`` y ``strptime``)
----------------------------------------------
+Date Formatting (``strfime`` and ``strptime``)
+----------------------------------------------
 
 .. class:: izqfina
 
 == =======================================================
-%a Día de la semana abreviado (Dom)
-%A Día de la semana
-%b Mes abreviado (Ene)
-%B Nombre del mes (Enero)
-%c Fecha y hora
-%d Día (ceros a la izq.) (01 a 31)
-%H 24 horas (ceros a la izq.) (00 a 23)
-%I 12 horas (ceros a la izq.) (01 a 12)
-%j Día del año (001 a 366)
-%m Mes (01 a 12)
-%M Minuto (00 a 59)
-%p AM o PM
-%S Segundo (00 a 61) :sup:`1`
-%U Número de semana :sup:`2` (00 a 53)
-%w Día de la semana :sup:`3` (0 a 6)
-%W Número de la semana :sup:`4` (00 a 53)
-%x Fecha
-%X Hora
-%y Año sin siglo (00 a 99)
-%Y Año con siglo (ej: 2009)
-%Z Zona horaria (ej: ART)
-%% Un caracter "%"
+%a Abbreviated weekday (Sun)
+%A Weekday (Sunday)
+%b Abbreviated month name (Jan)
+%B Month name (January)
+%c Date and Time
+%d Day (leading zeros) (01 to 31)
+%H 24 hour (leading zeros) (00 a 23)
+%I 12 hour (leading zeros) (01 a 12)
+%j Day of the year (001 a 366)
+%m Month (01 a 12)
+%M Minute (00 a 59)
+%p AM or PM
+%S Second (00 a 61) :sup:`1`
+%U Week number :sup:`2` (00 a 53)
+%w Weekday :sup:`3` (0 a 6)
+%W Week number :sup:`4` (00 a 53)
+%x Date
+%X Time
+%y Year without century (00 a 99)
+%Y Year (2009)
+%Z Time zone (GMT)
+%% A literal "%" character (%)
 == =======================================================
 
 .. class:: tablanotapie
 
-+----------------------------------------------------------------+
-|1 -- No es un error: este rango considera "leap seconds"        |
-+----------------------------------------------------------------+
-|2 -- Toma el domingo como primer día de la semana.              |
-+----------------------------------------------------------------+
-|3 -- 0 es domingo, 6 es sábado.                                 |
-+----------------------------------------------------------------+
-|4 -- Toma el lunes como primer día de la semana.                |
-+----------------------------------------------------------------+
++------------------------------------------------------------------------+
+|1 -- Not a mistake. Range takes account of leap and double leap seconds |
++------------------------------------------------------------------------+
+|2 -- Sunday as start of week.                                           |
++------------------------------------------------------------------------+
+|3 -- 0 is Sunday, 6 is Saturday.                                        |
++------------------------------------------------------------------------+
+|4 -- Monday as start of week.                                           |
++------------------------------------------------------------------------+
 
-Métodos de Archivo
-------------------
+File Methods     
+------------
 
 ===================== ================================
-close()               readlines(tamaño)
-flush()               seek(desplazamiento)
+close()               readlines(size)
+flush()               seek(offset)
 fileno()              tell()
-isatty()              truncate(tamaño)
+isatty()              truncate(size)
 next()                write(string)
-read(tamaño)          writelines(lista)
-readline(tamaño)
+read(size)            writelines(list)
+readline(size)
 ===================== ================================
 
 .. class:: tablacreditos
 
 +---------------------------+---------------------------------------+
-| **Generado con rst2pdf:** | http://rst2pdf.googlecode.com         |
+| **Created with rst2pdf:** | http://rst2pdf.googlecode.com         |
 +---------------------------+---------------------------------------+
-| **Tipografía Droid:**     | http://www.droidfonts.com             |
+| **Droid Typeface:**       | http://www.droidfonts.com             |
 +---------------------------+---------------------------------------+
-| **Código fuente:**        | http://netmanagers.com.ar/machete     |
+| **Homepage:**             | http://netmanagers.com.ar/machete     |
 +---------------------------+---------------------------------------+
 
 .. footer::
  
     .. class:: tablapie
  
-    +---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------+
-    | :small:`Licencia Creative Commons: Atribución-No Comercial-Compartir Obras Derivadas Igual 2.0 Reino Unido: Inglaterra y Gales` | |attrib| :small:`Basado en un original de http://www.AddedBytes.com`   | |noncomm| :small:`No para uso comercial`| |sharealike| :small:`Altéralo y compártelo bajo la misma licencia.`|
-    +---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------+
+    +-------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------+----------------------------------+
+    | :small:`Attribution-Non-Commercial-Share Alike 2.0 UK: England & Wales` | |attrib| :small:`Based on original from http://www.AddedBytes.com`   | |noncomm| :small:`Non-Commercial`| |sharealike| :small:`Share Alike`|
+    +-------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------+----------------------------------+
 
 
 .. |attrib| image:: attrib.png

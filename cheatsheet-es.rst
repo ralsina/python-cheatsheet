@@ -166,7 +166,7 @@ Formato de Fecha (``strfime`` y ``strptime``)
 
 == =======================================================
 %a Día de la semana abreviado (Dom)
-%A Día de la semana
+%A Día de la semana (Domingo)
 %b Mes abreviado (Ene)
 %B Nombre del mes (Enero)
 %c Fecha y hora
@@ -221,7 +221,7 @@ readline(tamaño)
 +---------------------------+---------------------------------------+
 | **Tipografía Droid:**     | http://www.droidfonts.com             |
 +---------------------------+---------------------------------------+
-| **Código fuente:**        | http://netmanagers.com.ar/machete     |
+| **Sitio web:**            | http://netmanagers.com.ar/machete     |
 +---------------------------+---------------------------------------+
 
 .. footer::
