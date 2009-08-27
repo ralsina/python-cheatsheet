@@ -51,7 +51,7 @@ sep                  Path separator
 .. class:: extranote
 
 +----------------+--------------------------------------------------+
-|    :nota:`NOTE`| Registered OS names:  ``posix``, ``nt``,         |
+|    :nota:`NOTE`| OS name can be  ``posix``, ``nt``,               |
 |                | ``mac``, ``os2``, ``ce``, ``java`` or ``riscos`` |
 +----------------+--------------------------------------------------+
 
@@ -192,7 +192,7 @@ Date Formatting (``strfime`` and ``strptime``)
 .. class:: tablanotapie
 
 +------------------------------------------------------------------------+
-|1 -- Not a mistake. Range takes account of leap and double leap seconds |
+|1 -- Not a mistake. Range takes account of leap seconds                 |
 +------------------------------------------------------------------------+
 |2 -- Sunday as start of week.                                           |
 +------------------------------------------------------------------------+

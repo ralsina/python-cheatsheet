@@ -9,7 +9,7 @@ Variables de *sys*
 argv                 Argumentos línea de comandos
 builtin_module_names Módulos en C incluídos
 byteorder            Orden de bytes nativo
-check_interval       Frecuencia de chequeo de señales
+check_interval       :small:`Frecuencia de chequeo de señales`
 exec_prefix          Directorio raíz
 executable           Nombre del ejecutable
 exitfunc             Nombre de función de salida
@@ -17,8 +17,8 @@ modules              Módulos cargados
 path                 Camino de búsqueda
 platform             Plataforma actual
 stdin,stdout,stderr  Objectos para entrada/salida
-version_info         Información de versión de python
-winver               Versión de windows
+version_info         Versión de Python
+winver               Versión de Windows
 ==================== ================================
 
 sys.argv para ``python foo.py bar -c qux --h``

@@ -1,6 +1,6 @@
 {
-    "pageSetup": {"margin-left": 12,
-                   "margin-right": 12,
+    "pageSetup": {"margin-left": 0,
+                   "margin-right": 0,
                    "margin-top": 0,
                    "margin-bottom": 6,
                    "spacing-header": 0,
@@ -12,9 +12,9 @@
     "pageTemplates" : {
         "threeColumn": {
             "frames": [
-                ["0cm", "0cm", "32%", "100%"],
-                ["34.666%", "0cm", "32%", "100%"],
-                ["68%", "0cm", "32%", "100%"]
+                ["2%", "0cm", "29.333%", "100%"],
+                ["35.333%", "0cm", "29.333%", "100%"],
+                ["68.666%", "0cm", "29.333%", "100%"]
             ],
             "background" : "background.png"
       }
