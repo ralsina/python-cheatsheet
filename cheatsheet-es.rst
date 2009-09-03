@@ -16,7 +16,7 @@ exitfunc             Nombre de función de salida
 modules              Módulos cargados
 path                 Camino de búsqueda
 platform             Plataforma actual
-stdin,stdout,stderr  Objectos para entrada/salida
+stdin,stdout,stderr  Objetos para entrada/salida
 version_info         Versión de Python
 winver               Versión de Windows
 ==================== ================================
